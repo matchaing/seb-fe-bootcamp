@@ -1,0 +1,47 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+    color:#455d3e;
+    margin: 30px;
+    width: 500px;
+    height: 550px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10%;
+    background: #cbdfea;
+}
+
+h2 {
+    text-align: center;
+}
+div .img {
+    text-align: center;
+}
+
+.box div {
+    background-color: #fafafa;
+    font-size: 15px;
+    border-radius: 7%;
+    text-align: center;
+}
+.box1 {
+    float: left;
+    width: 230px;
+    margin: 10px;
+    padding: 14px 0px 14px 0px;
+}
+.box2 {
+    float: right;
+    width: 230px;
+    margin: 10px;
+    padding: 14px 0px 14px 0px;
+}
+.box3 {
+    float: left;
+    width: 480px;
+    margin: 10px;
+    padding: 14px 0px 20px 0px;
+    text-align: center;
+}
+
+li {
+    list-style:none;
+}
