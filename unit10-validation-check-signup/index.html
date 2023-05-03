@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation check</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="emailpw">이메일</div>
+    <fieldset>
+        <input type="text" id="username" placeholder="이메일 주소를 입력해주세요">
+    </fieldset>
+
+    <div class="success-message hide">사용 가능한 이메일입니다.</div>
+    <div class="failure-message hide">올바른 이메일 형태가 아닙니다.</div>
+
+    <div class="emailpw">비밀번호</div>
+    <fieldset>
+        <input type="password" id="password" placeholder="비밀번호를 입력해주세요">
+    </fieldset>
+
+    <fieldset>
+        <input type="password" id="password-retype" placeholder="비밀번호 재확인">
+    </fieldset>
+    
+    <div class="mismatch-message hide">비밀번호가 일치하지 않습니다</div>
+
+    <fieldset class="signup">
+        <button id="button_signUp" onclick="isSignUp()" >회원가입</button>
+    </fieldset>
+    <div class="mis-message hide">이메일과 비밀번호를 모두 입력해주세요</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
